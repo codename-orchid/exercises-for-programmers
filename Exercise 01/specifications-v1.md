@@ -1,38 +1,37 @@
-# Title: saying-hello
+# Exercise 01: saying-hello
+##### Version 1
 
-#### Version: 1
+## Specifications
 
-# Specifications
-
-## Input(s)
+### Input(s)
 + name
 
-## Process(es)
+### Process(es)
 n/a
 
-## Output(s)
+### Output(s)
 + greeting with name
 
-# Test plans
+## Test plans
 
-## Test 1
-### Input(s):
-> `name: Cattleya`
+### Test 1
+#### Input(s):
+`name: Cattleya`
 
-### Expected result:
-> `greeting: Hello, Cattleya, nice to meet you!`
+#### Expected result:
+`greeting: Hello, Cattleya, nice to meet you!`
 
-## Test 2
-### Input(s):
-> `name: RM`
+### Test 2
+#### Input(s):
+`name: RM`
 
-### Expected result:
-> `greeting: Hello, RM, nice to meet you!`
+#### Expected result:
+`greeting: Hello, RM, nice to meet you!`
 
-# Constraint(s)
+## Constraint(s)
 Keep input, concatenation and output separate
 
-# Algorithm
+## Algorithm
 ```
 saying-hello
   Initialise name to ''
