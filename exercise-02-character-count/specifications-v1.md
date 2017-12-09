@@ -30,7 +30,8 @@
 `orange has 6 characters.`
 
 ## Constraint(s)
-
++ Use built-in string length function
++ Construct the output in a single output statement
 
 ## Algorithm
 ```
