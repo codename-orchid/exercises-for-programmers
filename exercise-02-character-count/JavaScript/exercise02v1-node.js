@@ -15,4 +15,4 @@ const rl = readline.createInterface({
 rl.question('What is the input string? ', string => {
   console.log(string + ' has ' + string.length + ' characters.');
   rl.close();
-})
+});
